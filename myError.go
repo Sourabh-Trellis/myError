@@ -3,9 +3,9 @@ package myerror
 import "fmt"
 
 type CustomError struct {
-	status  bool
-	message string
-	code    int
+	Status  bool
+	Message string
+	Code    int
 }
 
 func (e *CustomError) Error() string {
