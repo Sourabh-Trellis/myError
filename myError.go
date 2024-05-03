@@ -6,6 +6,7 @@ type CustomError struct {
 	Status  bool
 	Message string
 	Code    int
+	ErrorMsg string
 }
 
 func (e *CustomError) Error() string {
